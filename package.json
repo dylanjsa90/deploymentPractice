@@ -1,24 +1,28 @@
 {
-  "name": "rest_api",
-  "version": "0.1.0",
-  "description": "##To Submit this Assignment   * fork this repository   * write all of your code in a folder containing your name   * push to your repository   * submit a pull request to this repository   * submit a link to your PR in canvas",
+  "name": "deployment",
+  "version": "1.0.0",
+  "description": "+ use the class `.eslintrc` and `.eslintignore` files + put the files in your project and don't gitignore   + The class lint file rules include Single quotes, 2 spaces for tabs   + good practice to copy `.eslintrc` and `.eslintignore`  into ~/ - this allows eslint to find them if they're not in the project",
   "main": "index.js",
-  "scripts": {
-    "test": "./node_modules/mocha/bin/mocha",
+  "directories": {
+    "test": "test",
     "start": "node index.js",
     "lint": "./node_modules/eslint/bin/eslint.js *"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rebeccapeltz/node-project"
+    "url": "git+https://github.com/dylanjsa90/deploymentPractice.git"
   },
   "keywords": [],
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rebeccapeltz/node-project/rest_api/issues"
+    "url": "https://github.com/dylanjsa90/deploymentPractice/issues"
   },
-  "homepage": "https://github.com/rebeccapeltz/node-project/rest_api#readme",
+  "homepage": "https://github.com/dylanjsa90/deploymentPractice#readme",
   "devDependencies": {
     "chai": "3.5.0",
     "chai-http": "2.0.1",
